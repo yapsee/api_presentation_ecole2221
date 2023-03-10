@@ -24,7 +24,7 @@ app.use(express.json())
 function initApp(){
       require ('./api/modules/auth/auth.public.routes')(app)
       // require ('./api/modules/auth/auth.guard')(app)
-      // require('./api/modules/products/products.routes')(app)
+       require('./api/modules/products/products.routes')(app)
 
 
 

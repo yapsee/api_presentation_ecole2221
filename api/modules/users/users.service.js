@@ -15,7 +15,7 @@ module.exports.findUserByUsername = async (username) => {
 }
 
 module.exports.list = async () => {
-  const users = await User.findAll();
+  const users = await User.find();
   return users
 
 }
